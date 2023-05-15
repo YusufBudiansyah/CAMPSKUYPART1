@@ -29,9 +29,7 @@
     object-fit: cover;
 }
 
-  
-  
-  .kontak {
+  .CRS {
     background: url("https://wallpaperaccess.com/full/1867010.jpg") no-repeat
       center center;
     background-size: cover;
@@ -40,7 +38,9 @@
     color: #fff;
   }
 
-  body{
-margin: 0;
-overflow-x: hidden;
+  .maps {
+    position: relative;;
+    padding-bottom: 20%;
+    padding-top: 20%;
   }
+
