@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="asset/font-awesome-4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 <body>
@@ -274,7 +274,8 @@
   </div>
  
   <div class="col-md-3 mx-auto text-center">
-    <button type="button" class="btn btn-danger btn-lg">
+    
+    <button type="button" id="btnkirim" class="btn btn-danger btn-lg">
       Kirim Pesan
     </button>
   </div>
@@ -290,6 +291,23 @@
 
 <script>
   AOS.init();
+</script>
+
+<script> src="asset/dist/"</script>
+
+<script src="asset/js/dist/sweetalert2.all.min.js">
+</script>
+<script>
+  const btnkirim = document.getElementById('btnkirim');
+  btnkirim.addEventListener('click', function(){
+    Swal.fire({
+  position: 'center',
+  icon: 'success',
+  title: 'Your work has been saved',
+  showConfirmButton: false,
+  timer: 1500
+})
+  })
 </script>
   </body>
 </html>
