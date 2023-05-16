@@ -9,7 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/f8bf071f9c.js" crossorigin="anonymous"></script>
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <link rel="stylesheet" href="asset/font-awesome-4.7.0/css/font-awesome.css" />
     <link rel="stylesheet" href="asset/font-awesome-4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="style.css">
@@ -19,7 +18,7 @@
 </head>
 <body>
     <!--NAVIGASI-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-warning  fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">CAMP<b>SKUY</b></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,7 +70,7 @@
                     <p>Menyediakan tempat mandi dengan alat mandi yang lengkap</p>
                 </div>
 
-                <div data-aos="fade-right-" class="col-md-4">
+                <div data-aos="fade-right" class="col-md-4">
                     <span class="lingkaran"><i class="fa-solid fa-user-secret fa-5x"></i></span>
                     <h3 class="mt-3">Security 24 Hours</h3>
                     <p>Penjagaan ketat untuk keamanan lokasi camping</p>
@@ -101,7 +100,7 @@
               <p>Provide easy road access for camping</p>
           </div>
 
-            </div>
+          </div>
         </div>
       </div>
 
@@ -264,7 +263,7 @@
         <input  class="form-control form-control-lg mb-3" for="notelp" type="number" name="notelp" id="notelp" placeholder="Enter Number Phone" required>
         <textarea  class="form-control form-control-lg mb-3" for="subject" rows="8" name="message" id="subject" placeholder="Message" required></textarea>
         <button type="submit" class="btn btn-warning" onclick= "sub()">Send Message</button>
-        <a href = "#Home"></a>
+        <a href=""></a>
        </form>
     </div>
   </div>
@@ -283,7 +282,7 @@
       {
         if((document.form1.name.value!='')&&(document.form1.email.value!='')&&(document.form1.subject.value!=''))
         {
-          swal.fire("Thank you for reaching us!");
+          swal.fire('Terima kasih atas masukanya');
         }
       }
       </script>

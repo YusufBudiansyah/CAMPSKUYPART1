@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.body ,html{
+  overflow-x: hidden;
+}
 .banner {
-    background: url(asset/image/banner1.jpg)
-    no-repeat center center;
+    background: url(asset/image/banner1.jpg);
     background-size: cover;
     padding-top: 20%;
     padding-bottom: 20%;
@@ -23,7 +26,7 @@
     position: relative;
     top: 30px;
     
-}
+} 
 
 .crop-img{
     object-fit: cover;
